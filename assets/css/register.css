@@ -1,0 +1,158 @@
+html, body
+{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#background
+{
+    background-color: #000;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 125%;
+    width: 100%;
+}
+
+#loginForm h2
+{
+    color: #1ea1d6;
+}
+
+#loginContainer * 
+{
+    color :#fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: normal;
+    line-height: 2em;
+    box-sizing: border-box;
+}
+
+#loginContainer
+{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    max-width: 1024px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #b8b8b8;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #b8b8b8;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #b8b8b8;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #b8b8b8;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #b8b8b8;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #b8b8b8;
+}
+
+#inputContainer
+{
+    width: 430px;
+    padding :45px;
+    float: left;
+    border-right: 1px solid #d2d2d2;
+}
+
+#inputContainer h3
+{
+    text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]
+{
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px #b8b8b8 solid;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+#inputContainer button
+{
+    background-color: transparent;
+    border: 1.5px solid #b8b8b8;
+    border-radius: 35px;
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
+}
+
+#inputContainer button:hover
+{
+    cursor: pointer;
+}
+
+#inputContainer .errorMessage
+{
+    color: #ff0000;
+    font-size: 16px;
+    display: block;
+}
+
+.haveAccount span
+{
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.haveAccount
+{
+    text-align: center;
+}
+
+#registerForm
+{
+    display: none;
+}
+
+#info
+{
+    padding: 70px 50px;
+    display: table-cell;
+}
+
+#info h1
+{
+    color: #1ea1d6;
+    font-size: 36px;
+} 
+
+#info ul
+{
+    padding: 0;
+}
+
+#info li
+{
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px 45px;
+    background: url(../images/icons/icons8_play_48px_3.png) no-repeat;
+}
+
